@@ -1,0 +1,26 @@
+﻿@model List<corecrud.Models.EmpModel>
+
+    <table class="table table-bordered table-hover">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Address</th>
+            <th>Edit</th>
+            <th>Delete</th>
+
+        </tr>
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@item</td>
+                <td>@item</td>
+                <td>@item</td>
+                <td>@item</td>
+
+            </tr>
+
+        }
+
+    </table>
+
